@@ -38,7 +38,7 @@ const Experiences = () => {
     );
   });
   return (
-    <div className="projects">
+    <div className="projects" name="experiences">
       <h2 className="projects__title">My Experiences</h2>
       <div className="projects__list">{myExperiences}</div>
     </div>

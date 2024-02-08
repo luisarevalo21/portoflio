@@ -1,4 +1,5 @@
 import profile from "../assets/profile.png";
+import { Link } from "react-scroll";
 
 const Main = () => {
   return (
@@ -6,7 +7,9 @@ const Main = () => {
       <div className="main__hero">
         <h1 className="main__title">Luis Arevalo</h1>
         <h3 className="main__role">Frontend Developer</h3>
-        <button className="main__work main__work--purple">See my work</button>
+        <Link className="main__work main__work--purple" to="experiences" spy={true} smooth={true} duration={500}>
+          See my work
+        </Link>
         <i className="fa-solid fa-arrow-down-long main__down__arrow"></i>
       </div>
       <div className="main__bio" name="about">

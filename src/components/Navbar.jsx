@@ -53,7 +53,7 @@ const Navbar = () => {
         <Link href="#" to="projects" spy={true} smooth={true} duration={500} className="navbar__list__link">
           <li>My Projects</li>
         </Link>
-        <Link href="#" to="work" spy={true} smooth={true} duration={500} className="navbar__list__link">
+        <Link href="#" to="experiences" spy={true} smooth={true} duration={500} className="navbar__list__link">
           <li>Work Experience </li>
         </Link>
         <Link href="#" to="contact" spy={true} smooth={true} duration={500} className="navbar__list__link">
