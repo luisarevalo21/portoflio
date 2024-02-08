@@ -286,6 +286,9 @@ body {
   color: white;
   margin: 0.5em 0;
 }
+.experience__title {
+  text-align: center;
+}
 .project__image {
   /* object-position: 0% 0%;
   object-fit: cover; */

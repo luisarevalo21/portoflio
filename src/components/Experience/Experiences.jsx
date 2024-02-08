@@ -1,34 +1,27 @@
 /* eslint-disable no-unused-vars */
 import { useState } from "react";
 import Experience from "./Experience";
-import tenzies from "../../assets/tenzies.png";
-import quizzical from "../../assets/quizzical.png";
-
+import tuc from "../../assets/tuc.png";
+import oneCommunity from "../../assets/one-community.png";
 const Experiences = () => {
   const [experience, setExperiences] = useState([
     {
-      title: "Tenzies",
-      description: "This is a project",
-      liveLink: "https://tenzies-wvsb.onrender.com/",
-      githubLink: "https://github.com/luisarevalo21/Tenzies",
-      projectImage: tenzies,
-      tools: ["React", "Node.js", "Firebase", "CSS"],
+      title: "Full Stack Developer/Team Manager",
+      description:
+        "Leading a team of 9 developers, ensuring project alignment, troubleshooting, and introducing weekly innovations using React JS, NodeJS, and CSS; closely engaging with team members, providing progress summaries, and developing a warnings feature in React, Redux, and MongoDB within 2 months for active tracking of developers' warnings.",
+
+      website: "https://www.onecommunityglobal.org/",
+      projectImage: oneCommunity,
+      tools: [],
     },
     {
-      title: "Quizzical",
-      description: "This is a project",
-      liveLink: "https://quizzical-0m74.onrender.com/",
-      githubLink: "https://github.com/luisarevalo21/Quizzical",
-      projectImage: quizzical,
-      tools: ["React", "CSS", "Quiz API"],
-    },
-    {
-      title: "Moon Tracker",
-      description: "This is a project",
-      liveLink: "https://moon-tracker.onrender.com/",
-      githubLink: "https://github.com/luisarevalo21/moon-tracker",
-      projectImage: quizzical,
-      tools: ["React", "CSS", "Moon Tracker API", "Google Location API"],
+      title: "Digital Access Instructor",
+      description:
+        "Collaborated with EveryoneOn to provide a comprehensive digital literacy program for 10 diverse clients in Oakland, including distributing 15 laptops to low-income families, thereby narrowing the digital divide and empowering participants with essential digital skills.",
+
+      website: "https://unitycouncil.org/",
+      projectImage: tuc,
+      tools: [],
     },
   ]);
   const myExperiences = experience.map(project => {

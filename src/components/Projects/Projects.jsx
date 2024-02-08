@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+/* eslint-disable no-unused-vars */
+import { useState } from "react";
 import Project from "./Project";
 import tenzies from "../../assets/tenzies.png";
 import quizzical from "../../assets/quizzical.png";
@@ -25,7 +26,8 @@ const Projects = () => {
     },
     {
       title: "Moon Tracker",
-      description: "This is a project",
+      description:
+        "Moon Tracker enables users to monitor the current phase of the moon, utilizing ReactJS and CSS for the frontend. I incorporated Google Geolocation to determine the user's location and integrated a Moon Tracker API to fetch data and provide an image of the current moon phase.",
       liveLink: "https://moon-tracker.onrender.com/",
       githubLink: "https://github.com/luisarevalo21/moon-tracker",
       projectImage: moonTracker,
