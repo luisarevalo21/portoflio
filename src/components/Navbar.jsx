@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className="navbar">
       <ul className="navbar__icons">
         <li className="navbar__icon">
-          <a to="https://www.linkedin.com/in/luis-arevalo-6aa9b414b/" target="__blank">
+          <a href="https://www.linkedin.com/in/luis-arevalo-6aa9b414b/" target="__blank">
             <i className="fa-brands fa-linkedin navbar__icon navbar__icon--blue"></i>
           </a>
         </li>
