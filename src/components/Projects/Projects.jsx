@@ -4,6 +4,7 @@ import Project from "./Project";
 import tenzies from "../../assets/tenzies.png";
 import quizzical from "../../assets/quizzical.png";
 import moonTracker from "../../assets/moon-tracker.png";
+import greenlawnServices from "../../assets/greenlawn-services.png";
 const Projects = () => {
   const [projects, setProjects] = useState([
     {
@@ -32,6 +33,15 @@ const Projects = () => {
       githubLink: "https://github.com/luisarevalo21/moon-tracker",
       projectImage: moonTracker,
       tools: ["React", "CSS", "Moon Tracker API", "Google Location API"],
+    },
+    {
+      title: "Greenlawn Services",
+      description:
+        "Developed a responsive, mobile-friendly website for a local landscaper using React, CSS, and EmailJS API, showcasing their skills and portfolio, enabling direct user communication via email, and increasing revenue by 15% upon deployment on Render. Improved website performance by compressing images and adhering to best practices for responsive design.",
+      liveLink: "https://www.greenlawn-services.com/",
+      githubLink: "https://github.com/luisarevalo21/landscaper-project",
+      projectImage: greenlawnServices,
+      tools: ["React", "CSS", "EmailJS API"],
     },
   ]);
   const myProjects = projects.map(project => {
