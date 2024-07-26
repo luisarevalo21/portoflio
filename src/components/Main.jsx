@@ -14,7 +14,7 @@ const Main = () => {
       </div>
       <div className="main__bio" name="about">
         {/* <div className="main__bio__img__cont"> */}
-        <img src={profile} alt="luis" className="main__image" />
+        <img src={profile} alt="Luis Arevalo" className="main__image" />
         {/* </div> */}
         <div className="main__bio__details">
           <h3 className="bio__title">Who I am</h3>

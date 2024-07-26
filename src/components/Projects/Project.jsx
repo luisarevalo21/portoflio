@@ -4,7 +4,7 @@ const Project = ({ title, projectImage, liveLink, githubLink, tools, description
   return (
     <div className="project">
       <h2 className="project__title">{title}</h2>
-      <img src={projectImage} alt="" className="project__image" />
+      <img src={projectImage} alt="Luis Arevalo" className="project__image" />
       <div className="project__links">
         <a href={liveLink} className="project__link" target="_blank" rel="noreferrer">
           Live site
