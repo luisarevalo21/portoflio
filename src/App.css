@@ -122,6 +122,13 @@ body {
     transform: rotate(360deg);
   }
 }
+
+.summary__link {
+  font-size: 1.3rem;
+  cursor: pointer;
+  color: var(--dark-blue);
+  text-decoration: none;
+}
 .main {
   display: flex;
   flex-direction: column;
@@ -312,6 +319,7 @@ body {
   color: var(--dark-blue);
   text-decoration: none;
 }
+
 .project__link:hover {
   color: #fff;
   border: 2px solid rgb(88, 153, 170);

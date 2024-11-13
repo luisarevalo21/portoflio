@@ -17,20 +17,29 @@ const Main = () => {
         <img src={profile} alt="Luis Arevalo" className="main__image" />
         {/* </div> */}
         <div className="main__bio__details">
-          <h3 className="bio__title">Who I am</h3>
+          <h3 className="bio__title">Who I am?</h3>
 
           <p className="bio__text">
-            After graduation, I found myself uncertain about which career path to pursue, which led me into a cycle of
-            applying to various jobs and encountering multiple rejections. At one point, the continuous setbacks left me
-            feeling so disheartened that I contemplated giving up, and, in a sense, I did.
+            By day, I&apos;m a Full-Stack
+            <a href="https://www.linkedin.com/in/luisearevalo/" className="summary__link">
+              {" "}
+              Software Engineer{" "}
+            </a>
+            based in the SF Bay Area, focused on creating impactful, user-centric applications grounded in thoughtful
+            design and technical rigor . From crafting seamless interfaces to engineering resilient backends, I thrive
+            on building tools and systems that make users&apos; lives simpler and more efficient. I enjoy taking on
+            technical challenges that balance functionality and user experience, ensuring every feature serves a
+            purpose.
           </p>
           <p className="bio__text">
-            Upon securing a full-time job unrelated to my degree, a conversation with a mentor reignited my ambition to
-            pursue a full-time position as a front-end developer.
+            By night, I&apos;m a tech enthusiast and lifelong learner, diving into side projects that keep programming
+            fresh and exciting. Whether developing indie games, exploring AI applications, or experimenting with new
+            frameworks, I&apos;m always pushing the boundaries of what&apos;s possible.
           </p>
           <p className="bio__text">
-            When I&apos;m not engaged in learning, you can often find me either biking around, walking my two German
-            Shepherds/Huskies, or enjoying quality time with my family.
+            When I&apos;m not coding, you&apos;ll find me biking local trails around the SF Bay Area, spending time with
+            my two German Shepherds, diving into anime, exploring Japanese culture and travel, or enjoying quality time
+            with family. Check out my Projects section to see how I&apos;m bringing these ideas to life!
           </p>
         </div>
       </div>
