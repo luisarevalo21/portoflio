@@ -5,8 +5,37 @@ import tenzies from "../../assets/tenzies.png";
 import quizzical from "../../assets/quizzical.png";
 import moonTracker from "../../assets/moon-tracker.png";
 import greenlawnServices from "../../assets/greenlawn-services.png";
+import walletcop from "../../assets/walletcop.png";
+import studyzap from "../../assets/studyzap.png";
 const Projects = () => {
   const [projects, setProjects] = useState([
+    {
+      title: "WalletCop",
+      description:
+        "Designed and developed a full-stack application using the MERN stack, transforming a Figma design into a production-ready app within three months. The app enables users to optimize their cashback rewards by analyzing their purchases and credit card options.",
+      liveLink: "https://walletcop.onrender.com/",
+      githubLink: "https://github.com/luisarevalo21/walletcop",
+      projectImage: walletcop,
+      tools: ["React", "MUI", "NodeJS", "Express", "Supabase Google Auth"],
+    },
+    {
+      title: "Greenlawn Services",
+      description:
+        "Developed a responsive, mobile-friendly website for a local landscaper using React, CSS, and EmailJS API, showcasing their skills and portfolio, enabling direct user communication via email, and increasing revenue by 15% upon deployment on Render. Improved website performance by compressing images and adhering to best practices for responsive design.",
+      liveLink: "https://www.greenlawn-services.com/",
+      githubLink: "https://github.com/luisarevalo21/landscaper-project",
+      projectImage: greenlawnServices,
+      tools: ["React", "CSS", "EmailJS API"],
+    },
+    {
+      title: "StudyZap",
+      description:
+        "Designed and developed an AI-driven flashcard application using Next.js, ChatGPT API, and Firebase. The platform enables users to generate topic-based flashcards, save libraries, perform full CRUD operations, and track study progress. These features enhanced study efficiency, increasing average study time by 10%.",
+      liveLink: "https://github.com/luisarevalo21/studyzap.me",
+      githubLink: "https://github.com/luisarevalo21/studyzap.me",
+      projectImage: studyzap,
+      tools: ["NextJS", "JavaScript", "Material UI", "Open AI", "Firebase/Firestore", "Clerk Auth"],
+    },
     {
       title: "Tenzies",
       description:
@@ -33,15 +62,6 @@ const Projects = () => {
       githubLink: "https://github.com/luisarevalo21/moon-tracker",
       projectImage: moonTracker,
       tools: ["React", "CSS", "Moon Tracker API", "Google Location API"],
-    },
-    {
-      title: "Greenlawn Services",
-      description:
-        "Developed a responsive, mobile-friendly website for a local landscaper using React, CSS, and EmailJS API, showcasing their skills and portfolio, enabling direct user communication via email, and increasing revenue by 15% upon deployment on Render. Improved website performance by compressing images and adhering to best practices for responsive design.",
-      liveLink: "https://www.greenlawn-services.com/",
-      githubLink: "https://github.com/luisarevalo21/landscaper-project",
-      projectImage: greenlawnServices,
-      tools: ["React", "CSS", "EmailJS API"],
     },
   ]);
   const myProjects = projects.map(project => {
